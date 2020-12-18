@@ -1,0 +1,11 @@
+{
+  "name": "html_renderer_for_nw",
+  "version": "0.0.3",
+  "description": "it can render html page by js code",
+  "main": "index.js",
+  "author": "Dmitry Sam",
+  "license": "MIT",
+  "repository": {
+    "type": "git"
+  }
+}
