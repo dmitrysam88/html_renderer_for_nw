@@ -6,6 +6,7 @@
   "author": "Dmitry Sam",
   "license": "MIT",
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "https://github.com/dmitrysam88/html_renderer_for_nw"
   }
 }
