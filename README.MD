@@ -1,5 +1,6 @@
 This package can help you to create html page.
 You can use js to create dynamic html page.
+End you can use it with Web2Executable.
 
 Simple example:
 ```
