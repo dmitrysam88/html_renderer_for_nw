@@ -8,12 +8,19 @@ module.exports = class Renderer {
     }
   
     set store(val) {
+      let oldStore = { ...this.innerStore };
       this.innerStore = val;
       this.reRender();
+      if (typeof(this.updateListener) === 'function')
+        this.updateListener(oldStore);
     }
   
     get store() {
       return this.innerStore;
+    }
+    
+    setUpdateListener(func) {
+      this.updateListener = func;
     }
   
     getChildrenByArgs(args = []) {
