@@ -1,6 +1,6 @@
 {
   "name": "html_renderer_for_nw",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "it can render html page by js code",
   "main": "index.js",
   "author": "Dmitry Sam",
