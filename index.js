@@ -1,5 +1,5 @@
 
-export default class Renderer {
+module.exports = class Renderer {
 
     constructor(rootElementID) {
       this.innerStore = {};
