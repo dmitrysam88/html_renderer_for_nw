@@ -1,8 +1,8 @@
 
 module.exports = class Renderer {
 
-    constructor(rootElementID) {
-      this.innerStore = {};
+    constructor(rootElementID, initStore={}) {
+      this.innerStore = initStore;
       this.rootElementID = rootElementID;
       this.rootElement = document.getElementById(rootElementID);
     }
